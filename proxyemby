@@ -5,9 +5,9 @@ domain_set:
 - hka-emby.aliz.work
 - emby.apopcloud.live
 - abc.auroramedia.vip
-- emby.nebula-media.org
 domain_suffix_set:
 - yhemby.top
 - misakaf.org
 - tanhuatv.site
 - sfcj.org
+- nebula-media.org
