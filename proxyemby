@@ -11,5 +11,6 @@ domain_suffix_set:
 - tanhuatv.site
 - sfcj.org
 - nebula-media.org
+- 1024.name
 ip_cidr_set:
 - 107.181.238.190/32
