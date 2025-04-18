@@ -258,6 +258,13 @@ proxy-groups:
     type: select
 
 rule-providers:
+  EMBY:
+    url: https://raw.githubusercontent.com/Toxin3333/loon-rule/refs/heads/main/EMBYproxy
+    path: ./ruleset/EMBYproxy
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
   LocalAreaNetwork:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
     path: ./ruleset/LocalAreaNetwork.list
@@ -471,6 +478,7 @@ rule-providers:
 
 rules:
   - "DOMAIN-SUFFIX,mefun.org,🚀 手动切换"
+  - "RULE-SET,EMBY,🚀 手动切换"
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
   - "RULE-SET,UnBan,🎯 全球直连"
   - "RULE-SET,BanAD,🛑 广告拦截"
