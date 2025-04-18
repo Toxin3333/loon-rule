@@ -470,6 +470,7 @@ rule-providers:
     type: http
 
 rules:
+  - "DOMAIN-SUFFIX,mefun.org,🚀 手动切换"
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
   - "RULE-SET,UnBan,🎯 全球直连"
   - "RULE-SET,BanAD,🛑 广告拦截"
