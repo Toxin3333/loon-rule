@@ -72,6 +72,3 @@ payload:
   - DOMAIN-SUFFIX,daliziqieqieli.top
   - DOMAIN-SUFFIX,emby.fan
   - DOMAIN-SUFFIX,surrit.com
-
-  # ===== IP =====
-  - IP-CIDR,193.122.114.13/32,no-resolve
