@@ -1,5 +1,4 @@
-payload:
-  # ===== 精确域名 =====
+# ===== 精确域名 =====
   - DOMAIN,emby.bangumi.ca
   - DOMAIN,music.mefun.org
   - DOMAIN,free.28.al
